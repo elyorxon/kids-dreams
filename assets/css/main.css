@@ -1,0 +1,86 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #106eea;
+}
+
+a:hover {
+  color: #3b8af2;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+}
+@media (max-width: 768px){
+  .navbar .navbar-brand {
+  color: red;
+  padding-left: 10px;
+  font-size: 15px;
+  padding-right: 50px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+}
+.navbar {
+  font-size: 30px;
+  background: purple;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid #d6d6d6;
+  box-shadow: 0 0 4px rgba(0,0,0,.1);   
+}
+.navbar .navbar-brand {
+  color: red;
+  padding-left: 0;
+  font-size: 30px;
+  padding-right: 30px;
+  font-family: 'Raleway', sans-serif;
+ 
+}
+.collapse .navbar-collapse {
+  padding-left: 20px;
+}
+.navbar .navbar-brand b {
+  color: purple;
+}
+.navbar .navbar-nav a {
+  font-size: 96%;
+  font-weight: bold;    
+  text-transform: uppercase;
+}
+.navbar .navbar-nav a.active {
+  color: #fff !important;
+  background: transparent !important;
+}
+
+.navbar .nav-item.open > a {
+  background: none !important;
+}
+@media only screen and (max-width: 768px) {
+  .carousel-inner .carousel-item {
+    height: 75vh;
+    width: 100%;
+  }
+}
+@media only screen and (max-width : 767px){
+       /*your styles for mobile device*/
+       .navbar-brand {
+           font-size: 20px;
+           text-transform: none;
+       }
+ }
+ .featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
